@@ -23,18 +23,20 @@ class Book
 
 	def initialize
 		@title = ""
-	end 
+	end
 
+	
+	#overloaded operator 
 	def title=(title)
 		@title = titleize(title)
 	end
 
-	def title
+	#
+	def getTitle
 		return 	@title 
 	end
 
 
 
-# write your code here
 end
 
